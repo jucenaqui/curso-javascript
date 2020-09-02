@@ -26,4 +26,4 @@ function sum(num1, num2) {
     return num1 + num2;
 }
 
-console.log( sum(2,5) );
+console.log( messageTwo(2,5) );
