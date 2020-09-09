@@ -15,7 +15,7 @@ function calculator(num1, num2) {
     };
 }
 
-function calculator(num1, num2) {
+function calculatorTwo(num1, num2) {
     return function(operator) {
         switch (operator) {
             case 'suma': return num1 + num2;
