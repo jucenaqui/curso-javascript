@@ -23,3 +23,23 @@ function getProperty(property) {
 
 var greet = welcome('bruce');
 greet();
+
+
+function counter() {
+  var count = 0;
+  return {
+      increment: function() {
+          count++;
+      },
+      decrement: function() {
+          count = count === 0 ? 0 : --count;
+      },
+      show: function() {
+          return count;
+      },
+      reset: function() {
+          count = 0;
+      }
+  };
+}
+

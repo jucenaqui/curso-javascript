@@ -13,6 +13,20 @@ message('sofia', function(err, value){
     }
 });
 
+// Proveedor
+function div(a, b, callback) {
+  if (b === 0) callback (Error (...))
+  else {
+      var result = a / b;
+      callback (null, result);
+  }
+}
+// Cliente
+div (8, 2, function (error, data) {
+  if (error) console.error (error);
+  else console.log (data);
+});
+
 getData('user1', function(err, data) {
   if (err) {
     return;
