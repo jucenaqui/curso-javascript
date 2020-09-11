@@ -1,1 +1,3 @@
-proyecto para curso de javascript desde cero
+## proyecto para curso de javascript desde cero
+
+(./javascript.jpg)
