@@ -1,0 +1,6 @@
+nombre apellido edad
+carlos jaramillo 28
+raul velez 23
+maria suarez 15
+luis perez 35
+ana bedoya 20
