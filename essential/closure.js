@@ -21,25 +21,41 @@ function getProperty(property) {
  var userEmail = users.map( getProperty('email') );
  console.log(userEmail);
 
-var greet = welcome('bruce');
-greet();
-
 
 function counter() {
-  var count = 0;
-  return {
-      increment: function() {
-          count++;
-      },
-      decrement: function() {
-          count = count === 0 ? 0 : --count;
-      },
-      show: function() {
-          return count;
-      },
-      reset: function() {
-          count = 0;
-      }
-  };
+    let count = 0;
+    return {
+        increment: function() {
+            count++;
+        },
+        decrement: function() {
+            count = count === 0 ? 0 : --count;
+        },
+        show: function() {
+            return count;
+        },
+        reset: function() {
+            count = 0;
+        }
+    };
 }
+
+var count = counter();
+count.increment();
+count.increment();
+count.increment();
+count.increment();
+count.decrement();
+count.decrement();
+console.log(count.show());
+
+var count2 = counter();
+count2.increment();
+console.log(count2.show());
+
+
+
+
+
+
 
