@@ -16,11 +16,6 @@ E/S: existen algunas funciones para comunicarse con otras partes del sistema,
   un argumento llamado x y multiplica x por 2.
  Para usar esta función, simplemente proporcionamos un valor para x:
  f (2)
-
-
-
- 
-
-
    */
+
 
