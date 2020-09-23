@@ -113,4 +113,19 @@ function asyncSquare(value, callback) {
         }
   });
 
+  // con la respuesta que llega, recorrer el archivo y crear un array
+  // que tenga los usuarios que llegan en el txt
+  const fs = require('fs');
+
+  fs.readFile('./file.txt', 'utf-8' , function(err, file) {
+        if (err) {
+            console.log(err);
+        } else {
+            console.log(file);
+           // codigo aqui, con file.split(/\r\n/) convierte 
+           // un string a un array separandolos por lo que se le 
+           // pasa por parametro 
+        }
+  });
+
 
