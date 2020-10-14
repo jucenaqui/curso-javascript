@@ -1,0 +1,22 @@
+{
+  "name": "curso-javascript",
+  "version": "1.0.0",
+  "description": "![](https://www.adictosaltrabajo.com/wp-content/uploads/2018/05/el_remozado_javascript.imagen.jpg)",
+  "main": "define.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jucenaqui/curso-javascript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jucenaqui/curso-javascript/issues"
+  },
+  "homepage": "https://github.com/jucenaqui/curso-javascript#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
