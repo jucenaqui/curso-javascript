@@ -40,7 +40,10 @@ fetch('https://jsonplaceholder.typicode.com/comments')
     .then(function(res){
         return res.json();
     }).then(function(data){
-        console.log(data);
+       console.log(data.filter(function(item){ return item.postId === 100})
+       .map(function(item){ 
+           return item.email;
+       }));
     }).catch(function(err) {
         console.error(err);
     });
